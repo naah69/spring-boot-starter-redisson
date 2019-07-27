@@ -2,8 +2,9 @@
 [![](https://img.shields.io/badge/Java-v1.8-green)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 [![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)](https://search.maven.org/artifact/com.naah69/spring-boot-starter-redisson/1.0.0/jar)
 [![](https://img.shields.io/github/license/naah69/spring-boot-starter-redisson)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![](https://img.shields.io/github/release/naah69/spring-boot-starter-redisson)](https://github.com/naah69/spring-boot-starter-redisson/releases)
 
-[中文](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.md) [English](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.en.md)
+[\[中文\]](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.md) [\[English\]](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.en.md)
 
 
 ## 1 介绍
