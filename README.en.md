@@ -216,7 +216,7 @@ public void test() {
 ### 4.3 Custom Compont Named RedisUtils Specification
 
 get database instance：
-```
+```java
 // get default database instance(DB)
 DBHandler dbHandler = RedisUtil.getDBHandler();
 ...
@@ -248,7 +248,7 @@ DBHandler dbHandler = RedisUtil.getDBHandler(2);
 | TransactionHandler | Transaction | RedisUtil.getTransactionHandler()<br>RedisUtil.getTransactionHandler(dbIndex) |
 
 ### 4.4 Transaction Sample
-```
+```java
 List execute = RedisUtil.getTransactionHandler(2).execute(handler -> {
     // open monitoring
     handler.watch("xx", "test");

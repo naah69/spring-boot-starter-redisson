@@ -217,7 +217,7 @@ public void test() {
 ### 4.3 自定义组件RedisUtils说明
 
 获取操作实例：
-```
+```java
 // 获取默认数据库实例(DB)
 DBHandler dbHandler = RedisUtil.getDBHandler();
 ...
@@ -249,7 +249,7 @@ DBHandler dbHandler = RedisUtil.getDBHandler(2);
 | TransactionHandler | 事务(Transaction) | RedisUtil.getTransactionHandler()<br>RedisUtil.getTransactionHandler(dbIndex) |
 
 ### 4.4 事务使用示例
-```
+```java
 List execute = RedisUtil.getTransactionHandler(2).execute(handler -> {
     // 开启监控
     handler.watch("xx", "test");
