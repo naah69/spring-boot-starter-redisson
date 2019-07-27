@@ -1,25 +1,27 @@
 # spring-boot-starter-redisson
-![](https://img.shields.io/badge/Java-v1.8-green)
-![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)
-![](https://img.shields.io/github/license/naah69/spring-boot-starter-redisson)
+[![](https://img.shields.io/badge/Java-v1.8-green)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)](https://search.maven.org/artifact/com.naah69/spring-boot-starter-redisson/1.0.0/jar)
+[![](https://img.shields.io/github/license/naah69/spring-boot-starter-redisson)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-
+[中文](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.md) [English](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.en.md)
 
 ## 1 Introduce
 `RedisTemplate` and `StringRedisTemplate` cooperate with `Redisson`,use it easily,provide the more friendly and perfect API for you!
 
+The biggest advantage is the omission of the `redisson.yaml` config file
+
 This project is devolped based on [xsxgit/redis-spring-boot-starter](https://gitee.com/xsxgit/redis-spring-boot-starter)（Standing on the shoulders of giants）
 
 ## 2 Dependencies
-![](https://img.shields.io/badge/spring--boot--starter--parent-v2.1.5.RELEASE-blue)
+[![](https://img.shields.io/badge/spring--boot--starter--parent-v2.1.5.RELEASE-blue)](https://github.com/spring-projects/spring-boot/blob/v2.1.5.RELEASE/spring-boot-project/spring-boot-parent/pom.xml)
 
-![](https://img.shields.io/badge/spring--boot--starter--data--redis-v2.1.5.RELEASE-blue)
+[![](https://img.shields.io/badge/spring--boot--starter--data--redis-v2.1.5.RELEASE-blue)](https://github.com/spring-projects/spring-boot/blob/v2.1.5.RELEASE/spring-boot-project/spring-boot-starters/spring-boot-starter-data-redis/pom.xml)
 
-![](https://img.shields.io/badge/redisson--spring--data--21-v3.11.0-blue)
+[![](https://img.shields.io/badge/redisson--spring--data--21-v3.11.0-blue)](https://github.com/redisson/redisson/tree/master/redisson-spring-data/redisson-spring-data-21)
 
 ## 3 Current Version
 
-![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)
+[![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)](https://search.maven.org/artifact/com.naah69/spring-boot-starter-redisson/1.0.0/jar)
 
 ```xml
 <dependency>

@@ -1,25 +1,28 @@
 # spring-boot-starter-redisson
-![](https://img.shields.io/badge/Java-v1.8-green)
-![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)
-![](https://img.shields.io/github/license/naah69/spring-boot-starter-redisson)
+[![](https://img.shields.io/badge/Java-v1.8-green)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)](https://search.maven.org/artifact/com.naah69/spring-boot-starter-redisson/1.0.0/jar)
+[![](https://img.shields.io/github/license/naah69/spring-boot-starter-redisson)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+[中文](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.md) [English](https://github.com/naah69/spring-boot-starter-redisson/blob/master/README.en.md)
 
 
 ## 1 介绍
 `RedisTemplate`与`StringRedisTemplate`整合`Redisson`，开箱即用，提供更友好更完善的API，更方便的调用!
 
+最大的优点是省略`redisson.yaml`配置文件
+
 本项目是通过[xsxgit/redis-spring-boot-starter](https://gitee.com/xsxgit/redis-spring-boot-starter)改写的（站在巨人的肩膀上）
 
 ## 2 软件依赖
-![](https://img.shields.io/badge/spring--boot--starter--parent-v2.1.5.RELEASE-blue)
+[![](https://img.shields.io/badge/spring--boot--starter--parent-v2.1.5.RELEASE-blue)](https://github.com/spring-projects/spring-boot/blob/v2.1.5.RELEASE/spring-boot-project/spring-boot-parent/pom.xml)
 
-![](https://img.shields.io/badge/spring--boot--starter--data--redis-v2.1.5.RELEASE-blue)
+[![](https://img.shields.io/badge/spring--boot--starter--data--redis-v2.1.5.RELEASE-blue)](https://github.com/spring-projects/spring-boot/blob/v2.1.5.RELEASE/spring-boot-project/spring-boot-starters/spring-boot-starter-data-redis/pom.xml)
 
-![](https://img.shields.io/badge/redisson--spring--data--21-v3.11.0-blue)
+[![](https://img.shields.io/badge/redisson--spring--data--21-v3.11.0-blue)](https://github.com/redisson/redisson/tree/master/redisson-spring-data/redisson-spring-data-21)
 
 ## 3 当前版本
 
-![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)
+[![](https://img.shields.io/maven-central/v/com.naah69/spring-boot-starter-redisson)](https://search.maven.org/artifact/com.naah69/spring-boot-starter-redisson/1.0.0/jar)
 
 ```xml
 <dependency>
