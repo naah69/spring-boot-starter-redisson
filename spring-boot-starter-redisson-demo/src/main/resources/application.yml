@@ -1,0 +1,72 @@
+server:
+  port: 6969
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  redis:
+    redisson:
+      enable: true
+      singleServerConfig:
+        idleConnectionTimeout: 10000
+        pingTimeout: 1000
+        connectTimeout: 10000
+        timeout: 3000
+        retryAttempts: 3
+        retryInterval: 1500
+        failedSlaveReconnectionInterval: 3000
+        failedSlaveCheckInterval: 3
+        #        password: null
+        subscriptionsPerConnection: 5
+        clientName: "faiss"
+        address: "redis://127.0.0.1:6379"
+        subscriptionConnectionMinimumIdleSize: 1
+        subscriptionConnectionPoolSize: 50
+        connectionMinimumIdleSize: 32
+        connectionPoolSize: 64
+        database: 0
+      threads: 0
+      nettyThreads: 0
+      codec:
+        class: "org.redisson.codec.JsonJacksonCodec"
+      transportMode: "NIO"
+---
+spring:
+  profiles: prod
+  redis:
+    redisson:
+      enable: true
+      clusterServersConfig:
+        idleConnectionTimeout: 10000
+        pingTimeout: 1000
+        connectTimeout: 10000
+        timeout: 3000
+        retryAttempts: 3
+        retryInterval: 1500
+        failedSlaveReconnectionInterval: 3000
+        failedSlaveCheckInterval: 3
+        password: 'password'
+        subscriptionsPerConnection: 5
+        clientName: "faiss"
+        loadBalancer:
+          class: "org.redisson.connection.balancer.RoundRobinLoadBalancer"
+        slaveSubscriptionConnectionMinimumIdleSize: 1
+        slaveSubscriptionConnectionPoolSize: 50
+        slaveConnectionMinimumIdleSize: 32
+        slaveConnectionPoolSize: 64
+        masterConnectionMinimumIdleSize: 32
+        masterConnectionPoolSize: 64
+        readMode: "SLAVE"
+        nodeAddresses:
+        - "redis://127.0.0.1:7110"
+        - "redis://127.0.0.1:7111"
+        - "redis://127.0.0.1:7112"
+        - "redis://127.0.0.1:7113"
+        scanInterval: 1000
+      threads: 0
+      nettyThreads: 0
+      codec:
+        class: "org.redisson.codec.JsonJacksonCodec"
+      transportMode: "NIO"

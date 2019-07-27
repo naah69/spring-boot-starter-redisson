@@ -1,0 +1,2 @@
+#redis初始化
+org.springframework.context.ApplicationContextInitializer=com.naah69.core.config.RedisInitializer
