@@ -2,10 +2,10 @@ server:
   port: 6969
 spring:
   profiles:
-    active: dev
+    active: local
 ---
 spring:
-  profiles: dev
+  profiles: local
   redis:
     redisson:
       enable: true
@@ -20,7 +20,7 @@ spring:
         failedSlaveCheckInterval: 3
         #        password: null
         subscriptionsPerConnection: 5
-        clientName: "faiss"
+        clientName: "redisson-demo"
         address: "redis://127.0.0.1:6379"
         subscriptionConnectionMinimumIdleSize: 1
         subscriptionConnectionPoolSize: 50
@@ -34,7 +34,7 @@ spring:
       transportMode: "NIO"
 ---
 spring:
-  profiles: prod
+  profiles: cluster
   redis:
     redisson:
       enable: true
@@ -49,7 +49,7 @@ spring:
         failedSlaveCheckInterval: 3
         password: 'password'
         subscriptionsPerConnection: 5
-        clientName: "faiss"
+        clientName: "redisson-demo"
         loadBalancer:
           class: "org.redisson.connection.balancer.RoundRobinLoadBalancer"
         slaveSubscriptionConnectionMinimumIdleSize: 1

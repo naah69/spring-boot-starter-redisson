@@ -18,12 +18,23 @@ public class StringRedisTemplateTest extends TestBase {
 
     @Test
     public void test() {
-        String key = "redisson_test";
+        //获取客户端
+        ValueOperations<String, String> redisClient = redisTemplate.opsForValue();
+
+        //key
+        String key = "RedisTemplateTest";
+
+        //删除
         redisTemplate.delete(key);
+
+        //value
         long current = System.currentTimeMillis();
-        ValueOperations<String, String> redis = redisTemplate.opsForValue();
         String value = current + "";
-        redis.set(key, value);
-        Assert.assertEquals(redis.get(key), value);
+
+        //set
+        redisClient.set(key, value);
+
+        //校验
+        Assert.assertEquals(redisClient.get(key), value);
     }
 }
