@@ -9,8 +9,6 @@ import java.util.Map;
  * ClusterServersConfigs
  *
  * @author naah
- * @date 2019-07-27 3:09 AM
- * @desc
  */
 public class ClusterServersConfigs extends ClusterServersConfig {
 

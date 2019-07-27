@@ -17,7 +17,6 @@ import org.springframework.data.redis.serializer.RedisSerializer;
  * redis自动配置
  *
  * @author xsx
- * @date 2019/4/18
  * @since 1.8
  */
 @Configuration

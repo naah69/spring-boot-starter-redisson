@@ -17,7 +17,6 @@ import java.util.List;
  * 重写org.springframework.boot.autoconfigure.data.redis.AbstractRedisConnectionConfiguration
  *
  * @author xsx
- * @date 2019/5/7
  * @since 1.8
  */
 public abstract class AbstractRedisConnectionConfiguration {

@@ -10,7 +10,6 @@ import java.util.*;
  * 有序集合助手
  *
  * @author xsx
- * @date 2019/4/15
  * @since 1.8
  */
 public final class ZsetHandler implements RedisHandler {
@@ -759,7 +758,7 @@ public final class ZsetHandler implements RedisHandler {
      * @see <a href="http://redis.io/commands/zinterstore">Redis Documentation: ZINTERSTORE</a>
      * @since redis 2.0.0
      */
-    public Long intersectAndStore(String key, String storeKey, RedisZSetCommands.Aggregate aggregate, Double weight, String... otherKys) {
+    public Long intersectAndStore(String key, String storeKey, RedisZSetCommands.Aggregate aggregate, String... otherKys) {
         return this.stringZSetOperations.intersectAndStore(key, Arrays.asList(otherKys), storeKey, aggregate);
     }
 
@@ -917,7 +916,7 @@ public final class ZsetHandler implements RedisHandler {
      * @see <a href="http://redis.io/commands/zunionstore">Redis Documentation: ZUNIONSTORE</a>
      * @since redis 2.0.0
      */
-    public Long unionAndStore(String key, String storeKey, RedisZSetCommands.Aggregate aggregate, Double weight, String... otherKys) {
+    public Long unionAndStore(String key, String storeKey, RedisZSetCommands.Aggregate aggregate, String... otherKys) {
         return this.stringZSetOperations.unionAndStore(key, Arrays.asList(otherKys), storeKey, aggregate);
     }
 

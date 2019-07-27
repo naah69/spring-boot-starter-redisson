@@ -18,7 +18,6 @@ import java.util.Properties;
  * 数据库助手
  *
  * @author xsx
- * @date 2019/4/25
  * @since 1.8
  */
 public final class DBHandler implements RedisHandler {

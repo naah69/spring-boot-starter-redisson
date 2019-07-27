@@ -10,7 +10,6 @@ import java.util.List;
  * 基数助手
  *
  * @author xsx
- * @date 2019/4/22
  * @since 1.8
  */
 public final class HyperLogLogHandler implements RedisHandler {

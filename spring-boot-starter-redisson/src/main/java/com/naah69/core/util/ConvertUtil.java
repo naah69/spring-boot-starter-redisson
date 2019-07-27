@@ -15,7 +15,6 @@ import java.util.*;
  * 转换工具
  *
  * @author xsx
- * @date 2019/4/28
  * @since 1.8
  */
 public class ConvertUtil {
@@ -152,7 +151,7 @@ public class ConvertUtil {
      *
      * @param serializer 序列化器
      * @param value      值
-     * @returns 返回字节数组
+     * @return 返回字节数组
      */
     @SuppressWarnings("unchecked")
     public static byte[] toBytes(RedisSerializer serializer, Object value) {

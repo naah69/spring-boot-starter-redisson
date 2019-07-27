@@ -5,7 +5,6 @@ package com.naah69.core.handler;
  * 助手类型枚举
  *
  * @author xsx
- * @date 2019/6/8
  * @since 1.8
  */
 public enum HandlerType {

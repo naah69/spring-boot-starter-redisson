@@ -17,7 +17,6 @@ import java.util.List;
  * lua脚本助手
  *
  * @author xsx
- * @date 2019/5/9
  * @since 1.8
  */
 public final class ScriptHandler implements RedisHandler {

@@ -7,7 +7,6 @@ import org.redisson.api.*;
  * 分布式锁助手(需添加redisson依赖)
  *
  * @author xsx
- * @date 2019/5/9
  * @since 1.8
  */
 public final class RedisLockHandler implements RedisHandler {

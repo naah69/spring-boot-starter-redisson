@@ -7,7 +7,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
  * 助手管理代理
  *
  * @author xsx
- * @date 2019/6/15
  * @since 1.8
  */
 public class HandlerManagerProxy {

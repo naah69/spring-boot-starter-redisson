@@ -17,7 +17,6 @@ import java.util.List;
  * 发布与订阅助手
  *
  * @author xsx
- * @date 2019/5/21
  * @since 1.8
  */
 public final class PubSubHandler implements RedisHandler {

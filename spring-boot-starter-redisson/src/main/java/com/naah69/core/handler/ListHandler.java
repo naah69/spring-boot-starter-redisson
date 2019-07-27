@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
  * 列表助手
  *
  * @author xsx
- * @date 2019/4/12
  * @since 1.8
  */
 public final class ListHandler implements RedisHandler {

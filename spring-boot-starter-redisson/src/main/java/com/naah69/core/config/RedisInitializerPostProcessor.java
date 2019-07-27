@@ -12,7 +12,6 @@ import org.springframework.core.PriorityOrdered;
  * redis初始化后置处理器
  *
  * @author xsx
- * @date 2019/6/12
  * @since 1.8
  */
 public class RedisInitializerPostProcessor implements PriorityOrdered, BeanDefinitionRegistryPostProcessor {

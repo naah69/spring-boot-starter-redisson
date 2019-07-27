@@ -12,7 +12,6 @@ import java.util.List;
  * 自定义命令助手
  *
  * @author xsx
- * @date 2019/6/6
  * @since 1.8
  */
 public final class CustomCommandHandler implements RedisHandler {

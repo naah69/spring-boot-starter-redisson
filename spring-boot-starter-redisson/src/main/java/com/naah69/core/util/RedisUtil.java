@@ -8,7 +8,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
  * redis工具
  *
  * @author xsx
- * @date 2019/4/8
  * @since 1.8
  */
 public class RedisUtil {

@@ -12,7 +12,6 @@ import java.util.Properties;
  * 哨兵助手
  *
  * @author xsx
- * @date 2019/5/23
  * @since 1.8
  */
 public final class SentinelHandler implements RedisHandler {

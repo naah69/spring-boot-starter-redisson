@@ -12,7 +12,6 @@ import java.util.Map;
  *
  * @author xsx
  * @author nayan
- * @date 2019-07-27 4:32 AM
  * @since 1.8
  */
 @ConfigurationProperties(prefix = "spring.redis.redisson")

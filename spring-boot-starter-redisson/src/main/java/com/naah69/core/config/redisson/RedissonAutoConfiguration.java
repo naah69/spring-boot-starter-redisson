@@ -29,7 +29,6 @@ import java.util.List;
  *
  * @author xsx
  * @author naah
- * @date 2019-07-27 5:07 AM
  * @since 1.8
  */
 @Configuration

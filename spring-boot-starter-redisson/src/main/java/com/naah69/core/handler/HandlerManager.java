@@ -24,7 +24,6 @@ import java.util.concurrent.ConcurrentMap;
  * 助手管理
  *
  * @author xsx
- * @date 2019/5/23
  * @since 1.8
  */
 final class HandlerManager {

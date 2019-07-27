@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
  * 字符串助手
  *
  * @author xsx
- * @date 2019/4/8
  * @since 1.8
  */
 public final class StringHandler implements RedisHandler {

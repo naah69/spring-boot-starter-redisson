@@ -22,7 +22,6 @@ import org.springframework.util.Assert;
  * 重写org.redisson.spring.data.connection.RedissonConnectionFactory
  *
  * @author xsx
- * @date 2019/5/14
  * @since 1.8
  */
 public class RedissonConnectionFactory implements RedisConnectionFactory,

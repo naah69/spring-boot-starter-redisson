@@ -14,7 +14,6 @@ import java.util.List;
  * 位图助手
  *
  * @author xsx
- * @date 2019/4/22
  * @since 1.8
  */
 public final class BitmapHandler implements RedisHandler {
@@ -256,7 +255,6 @@ public final class BitmapHandler implements RedisHandler {
      * @param key      键
      * @param commands 指令
      * @return 返回指令结果列表
-     * @@since redis 3.2.0
      * @see <a href="http://redis.io/commands/bitfield">Redis Documentation: BITFIELD</a>
      */
     public List<Long> bitField(String key, BitFieldSubCommands commands) {

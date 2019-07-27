@@ -16,7 +16,6 @@ import java.util.Map;
  * 集群助手
  *
  * @author xsx
- * @date 2019/5/31
  * @since 1.8
  */
 public final class ClusterHandler implements RedisHandler {

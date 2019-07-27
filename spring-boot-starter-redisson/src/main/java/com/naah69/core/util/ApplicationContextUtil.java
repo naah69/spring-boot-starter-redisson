@@ -8,7 +8,6 @@ import org.springframework.context.ApplicationContextAware;
  * 上下文工具
  *
  * @author xsx
- * @date 2019/4/8
  * @since 1.8
  */
 public class ApplicationContextUtil implements ApplicationContextAware {
@@ -21,7 +20,7 @@ public class ApplicationContextUtil implements ApplicationContextAware {
      * 设置上下文
      *
      * @param applicationContext 上下文实例
-     * @throws BeansException
+     * @throws BeansException BeansException
      */
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {

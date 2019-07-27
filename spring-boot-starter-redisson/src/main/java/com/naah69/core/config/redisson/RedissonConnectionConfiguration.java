@@ -18,7 +18,6 @@ import java.util.UUID;
  * 重写org.redisson.config.RedissonConnectionConfiguration
  *
  * @author xsx
- * @date 2019/5/14
  * @since 1.8
  */
 public class RedissonConnectionConfiguration extends Config implements RedisConfiguration {
@@ -182,7 +181,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param content 配置内容
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(String content) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromJSON(content, RedissonConnectionConfiguration.class);
@@ -195,7 +194,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param inputStream 配置内容
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(InputStream inputStream) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromJSON(inputStream, RedissonConnectionConfiguration.class);
@@ -209,7 +208,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      * @param file        配置文件
      * @param classLoader 类加载器
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(File file, ClassLoader classLoader) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromJSON(file, RedissonConnectionConfiguration.class, classLoader);
@@ -222,7 +221,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param file 配置文件
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(File file) throws IOException {
         return fromJSON(file, null);
@@ -233,7 +232,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param url 配置文件路径
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(URL url) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromJSON(url, RedissonConnectionConfiguration.class);
@@ -246,7 +245,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param reader 配置文件读取器
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromJSON(Reader reader) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromJSON(reader, RedissonConnectionConfiguration.class);
@@ -258,7 +257,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      * 配置转为字符串
      *
      * @return 返回字符串
-     * @throws IOException
+     * @throws IOException IOException
      */
     @Override
     public String toJSON() throws IOException {
@@ -270,7 +269,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param content 配置内容
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(String content) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromYAML(content, RedissonConnectionConfiguration.class);
@@ -283,7 +282,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param inputStream 配置内容
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(InputStream inputStream) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromYAML(inputStream, RedissonConnectionConfiguration.class);
@@ -296,7 +295,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param file 配置文件
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(File file) throws IOException {
         return fromYAML(file, null);
@@ -308,7 +307,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      * @param file        配置文件
      * @param classLoader 类加载器
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(File file, ClassLoader classLoader) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromYAML(file, RedissonConnectionConfiguration.class, classLoader);
@@ -321,7 +320,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param url 配置文件路径
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(URL url) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromYAML(url, RedissonConnectionConfiguration.class);
@@ -334,7 +333,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      *
      * @param reader 配置文件读取器
      * @return 返回配置
-     * @throws IOException
+     * @throws IOException IOException
      */
     public static RedissonConnectionConfiguration fromYAML(Reader reader) throws IOException {
         RedissonConnectionConfiguration configuration = new ConfigSupport().fromYAML(reader, RedissonConnectionConfiguration.class);
@@ -346,7 +345,7 @@ public class RedissonConnectionConfiguration extends Config implements RedisConf
      * 配置转为字符串
      *
      * @return 返回字符串
-     * @throws IOException
+     * @throws IOException IOException
      */
     @Override
     public String toYAML() throws IOException {
