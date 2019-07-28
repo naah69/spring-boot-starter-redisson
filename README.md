@@ -12,7 +12,7 @@
 
 最大的优点是省略`redisson.yaml`配置文件
 
-本项目是通过[xsxgit/redis-spring-boot-starter](https://gitee.com/xsxgit/redis-spring-boot-starter)改写的（站在巨人的肩膀上）
+本项目是基于[xsxgit/redis-spring-boot-starter](https://gitee.com/xsxgit/redis-spring-boot-starter)改写的（站在巨人的肩膀上）
 
 ## 2 软件依赖
 [![](https://img.shields.io/badge/spring--boot--starter--parent-v2.1.5.RELEASE-blue)](https://github.com/spring-projects/spring-boot/blob/v2.1.5.RELEASE/spring-boot-project/spring-boot-parent/pom.xml)
